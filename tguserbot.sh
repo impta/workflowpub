@@ -1,5 +1,6 @@
-git clone https://github.com/kandnub/TG-UserBot/ /root/tguserbot
-cp CREDS/config.ini /root/tguserbot/config.ini
-cd /root/tguserbot
+git clone https://github.com/impta/VCPlayerBot/ /root/VCPlayerBot
+cp CREDS/config.ini /root/VCPlayerBot/config.ini
+cd /root/VCPlayerBot
 pip3 install -r requirements.txt
-python3 -m userbot
+sudo bash install_node.sh
+python3 main.py
