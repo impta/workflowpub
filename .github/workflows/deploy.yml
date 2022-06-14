@@ -27,11 +27,11 @@ jobs:
          continue-on-error: true
          run: |
            git clone https://${{ secrets.GH_NAME }}:${{ secrets.GH_TOKEN }}@${{ secrets.CREDS }} CREDS
-       - name: Running Userbot
+       - name: Running hubbax
          timeout-minutes: 350
          continue-on-error: true
          run: |
-           sudo sh tguserbot.sh
+           sudo sh hubbax.sh
        - name: Loop workflow
          continue-on-error: true
          run: |
