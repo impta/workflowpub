@@ -1,5 +1,5 @@
 git clone https://github.com/impta/VCPlayerBot/ /root/VCPlayerBot
-cp CREDS/.env /root/VCPlayerBot/config.ini
+cp CREDS/.env /root/VCPlayerBot/.env
 cd /root/VCPlayerBot
 pip3 install -r requirements.txt
 sudo bash install_node.sh
