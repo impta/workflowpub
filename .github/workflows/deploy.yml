@@ -1,4 +1,4 @@
-name: userbot
+name: workflowpub
 on:
     push:
     workflow_dispatch:
